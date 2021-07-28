@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send HTTP GET request parameters </title>
+</head>
+<body>
+    <h1>send HTTP GET request parameters </h1>
+
+    <ul>
+        <li>
+            <a th:href="@{/params/string(text='Hello String boot')}">/params/strin?text= Hello Spring boot</a>
+        </li>
+        <li>
+            <a th:href="@{/params/string(text='Text @qubit')}">/params/strin?text= Text @qubit</a>
+        </li>
+
+        <li>
+            <a th:href="@{/params/mix-params(greetings='Hello, @qubit', number = 7)}">/params/mix-params(greetings='Hello, @qubit', number = 7)</a>
+        </li>
+        <li>
+            <a th:href="@{/params/mix-params-request(greetings='Hello, @qubit', number = 7)}">
+                /params/mix-params-request(greetings='Hello, @qubit', number = 7)</a>
+        </li>
+    </ul>
+
+
+    
+</body>
+</html>

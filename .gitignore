@@ -1,0 +1,20 @@
+
+### VS Code ###
+.vscode/
+
+
+### Spring MVC ###
+SpringMvc/HELP.md
+SpringMvc/target
+SpringMvc/.settings
+SpringMvc/src/main/**/target/
+SpringMvc/!.mvn/wrapper/maven-wrapper.jar
+SpringMvc/src/test/**/target/
+
+### Dependicy injection ###
+SpringDI/HELP.md
+SpringDI/target
+SpringDI/.settings
+SpringDI/!.mvn/wrapper/maven-wrapper.jar
+SpringDI/src/main/**/target/
+SpringDI/src/test/**/target/

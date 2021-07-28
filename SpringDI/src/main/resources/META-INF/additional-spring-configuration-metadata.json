@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "client.username",
+    "type": "java.lang.String",
+    "description": "A description for 'client.username'"
+  },
+  {
+    "name": "client.surname",
+    "type": "java.lang.String",
+    "description": "A description for 'client.surname'"
+  },
+  {
+    "name": "invoice.description",
+    "type": "java.lang.String",
+    "description": "A description for 'invoice.description'"
+  }
+]}
